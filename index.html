@@ -428,7 +428,7 @@
     <script>
       //according to loftblog tut
       $(".main-menu li:first").addClass("active");
-
+      $(".white-button").addClass("active")
       var showSection = function showSection(section, isAnimate) {
         var direction = section.replace(/#/, ""),
           reqSection = $(".section").filter(
@@ -470,7 +470,10 @@
         e.preventDefault();
         showSection($(this).attr("href"), true);
       });
-
+      $(".white-button").on("click", "a", function(e) {
+        e.preventDefault();
+        showSection($(this).attr("href"), true);
+      });
       $(window).scroll(function() {
         checkSection();
       });
