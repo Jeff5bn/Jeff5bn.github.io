@@ -21,7 +21,9 @@ body {
     width: 100%;
 }
 
-
+#section2{
+    padding:0;
+}
 /* Basic */
 
 body {
