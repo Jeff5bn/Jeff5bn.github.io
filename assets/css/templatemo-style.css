@@ -22,7 +22,13 @@ body {
 }
 
 #section2{
-    padding:0;
+    color: #fff;
+    width: 55%;
+    right: 10%;
+    left: 35%;
+    position: relative;
+    min-height: 100vh;
+    border-bottom: 3px solid rgba(250, 250, 250, 0.25);
 }
 /* Basic */
 
